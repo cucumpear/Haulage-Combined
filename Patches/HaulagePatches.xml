@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Alpaca"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Boomalope"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Capybara"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Caribou"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Cow"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Dromedary"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Elk"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Ibex"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Muffalo"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Raccoon"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>//ThingDef[defName = "Rhinoceros"]/race</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>//ThingDef[defName = "Monkey"]/race/baseBodySize</xpath>
+	  <value><baseBodySize>0.4</baseBodySize></value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>//ThingDef[defName = "Raccoon"]/race/baseBodySize</xpath>
+	  <value><baseBodySize>0.4</baseBodySize></value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>//ThingDef[defName = "YorkshireTerrier"]/race/baseBodySize</xpath>
+	  <value><baseBodySize>0.4</baseBodySize></value>
+	</Operation>
+</Patch>
