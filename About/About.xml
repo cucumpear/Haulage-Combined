@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>CPHaulage - Combined</name>
   <author>cucumpear</author>
-  <targetVersion>0.17.0</targetVersion>
+  <targetVersion>0.18.0</targetVersion>
   <description>Alters several vanilla animals to enable hauling. Made with the power of xpath patching so only the trainable intelligence and/or body size are affected without completely overriding each animal.
   If you want to have full control over the animals with the ability to haul, I recommend a manual install. Open the patch file in a text editor and delete the operations for the animals you don't want.</description>
 </ModMetaData>
